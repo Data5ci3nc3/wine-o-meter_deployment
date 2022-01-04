@@ -23,5 +23,5 @@ Putting a machine learning model into production by building an application prog
 curl -i -H "Content-Type: application/json" -X POST -d '{"input": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8], [7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]}' https://red-red-wine-app.herokuapp.com/predict
             
           
-On Windows shell, the request using curl should have the following format :
+- On Windows shell, the request using curl should have the following format :
 curl -i -H "Content-Type: application/json" -X POST -d "{\"input\": [[7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8], [7.0, 0.27, 0.36, 20.7, 0.045, 45.0, 170.0, 1.001, 3.0, 0.45, 8.8]]}" https://red-red-wine-app.herokuapp.com/predict
